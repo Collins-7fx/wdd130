@@ -17,7 +17,7 @@ h1 {
       
 .herodiv {
   margin: 10px auto;
-  position: relative; /* The information section overlay moves to the bottom left of the document instead of the bottom left of the div.herodiv container.*/
+  /* The information section overlay moves to the bottom left of the document instead of the bottom left of the div.herodiv container.  */
 }
       
 .herodiv img {
@@ -35,9 +35,7 @@ h1 {
   padding: 0.65rem;
   box-shadow: 0 0 30px #111;
   opacity: 0.9;
-
 }
-
       
 h2 {
   text-shadow: 0 0 15px #333;
