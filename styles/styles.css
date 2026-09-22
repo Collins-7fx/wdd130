@@ -27,28 +27,30 @@ aside {
     text-align: center;
     position: relative;
 }
-aside {
-    width: 20rem;
-    text-align: center;
-    position: relative;
+aside h2{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+aside img{
+    width: 200px;
+    height: auto;
 }
 
 footer {margin-top: 15px;
 border-top: 1px solid black;
 text-align: center;}
 
-
 /* Class Selectors */
-
 
 .box {
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
     background-color: darkblue;
-    color: white;
+    color: rgb(255, 254, 254);
 }
 
 .box a {
-    color: white;
+    color: #f9f4f4;
 }
