@@ -1,15 +1,20 @@
+:root {
+    --primary-color: darkblue;
+    --secondary-color: lightblue;
+    --text-color: white;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-nav {background-color: darkblue; padding: 10px;}
+nav {background-color: var(--primary-color); padding: 10px;}
 
-nav a {color: white;
+nav a {color: var(--text-color);
 display: block;
 padding: 20px;}
 
-h1 {color: darkblue;}
+h1 {color: var(--primary-color);}
 
 main img {width: 150px;
 height: auto;
@@ -47,10 +52,10 @@ text-align: center;}
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    background-color: darkblue;
-    color: rgb(255, 254, 254);
+    background-color: var(--primary-color);
+    color: var(--text-color);
 }
 
 .box a {
-    color: #f9f4f4;
+    color: var(--text-color);
 }
