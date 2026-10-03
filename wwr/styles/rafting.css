@@ -66,17 +66,6 @@ article {
    height: auto;
 }
 
-h1 {
-   position: absolute;
-   top: 20px;
-   width: 100%;
-   padding: 16px;
-   text-align: center;
-   opacity: 0.7;
-   background-color: var(--accent1-color);
-   color: #fff
-}
-
 .hero article {
    position: absolute;
    bottom: 20px;
@@ -161,4 +150,147 @@ footer {
    justify-content: space-between;
    align-items: center;
    padding: 1rem;
+}
+
+.hero h1 {
+   position: absolute;
+   top: 20px;
+   width: 100%;
+   padding: 16px;
+   text-align: center;
+   opacity: 0.7;
+   background-color: var(--accent1-color);
+   color: #fff;
+}
+
+.contact-info {
+   text-align: center;
+}
+
+.contact-info h1 {
+   margin: 16px;
+}
+
+main h3 {
+   text-align: center;
+}
+
+iframe {
+   width: 100%;
+   max-width: 600px;
+   height: 450px;
+   border: 0;
+   display: block;
+   margin: 1rem auto;
+}
+
+.contact-grid {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 16px;
+   margin: 16px;
+}
+
+.contact-grid iframe {
+   width: 100%;
+   height: 100%;
+   min-height: 450px;
+   max-width: 100%;
+   margin: 0;
+}
+
+.contact-grid form {
+   max-width: none;
+   margin: 0;
+}
+
+form {
+   max-width: 500px;
+   margin: 16px auto;
+   padding: 16px;
+   background-color: #eee;
+   border-radius: 8px;
+   display: grid;
+   gap: 16px;
+}
+
+form div {
+   display: grid;
+   gap: 4px;
+}
+
+input,
+textarea,
+button {
+   font-family: var(--body-font);
+   font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+   padding: 8px;
+}
+
+fieldset {
+   display: grid;
+   gap: 8px;
+   padding: 12px;
+   border: 1px solid #999;
+   border-radius: 4px;
+}
+
+legend {
+   font-weight: bold;
+   padding: 0 8px;
+   color: var(--primary-color);
+}
+
+fieldset div,
+.checkbox {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+   width: 20px;
+   height: 20px;
+}
+
+button {
+   background-color: var(--accent2-color);
+   color: var(--accent1-color);
+   border: none;
+   border-radius: 4px;
+   padding: 12px 24px;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+button:hover {
+   background-color: var(--primary-color);
+   color: #fff;
+}
+
+.team {
+   text-align: center;
+   background-color: #eee;
+   border: 1px solid #999;
+   border-radius: 4px;
+}
+
+.team-images {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1rem;
+   justify-content: center;
+   gap: 24px;
+}
+
+.team img {
+   width: 100%;
+   height: 150px;
+   object-fit: cover;
 }
